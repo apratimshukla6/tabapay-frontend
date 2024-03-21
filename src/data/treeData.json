@@ -15,7 +15,7 @@
                 "category1": {
                   "text": "Long text paragraph for category 1 of Child A1. This can contain detailed information, insights, or descriptions relevant to this category.",
                   "code": {
-                    "url": "https://tabapay-9ab6ebeb9689.herokuapp.com/graphql",
+                    "url": "https://tabapay-api.apratim.me/graphql",
                     "requestType": "query",
                     "body": "query {\n  fetchMessage {\n    message\n  }\n}"
                   }
@@ -23,7 +23,7 @@
                 "category2": {
                   "text": "Detailed paragraph for category 2, perhaps including additional context, explanations, or narratives that further elaborate on this topic for Child A1.",
                   "code": {
-                    "url": "https://tabapay-9ab6ebeb9689.herokuapp.com/graphql",
+                    "url": "https://tabapay-api.apratim.me/graphql",
                     "requestType": "mutation",
                     "body": "mutation {\n  postMessage(input: {content: \"Sample message.\"}) {\n    message\n  }\n}"
                   }
@@ -31,7 +31,7 @@
                 "category3": {
                   "text": "Another comprehensive paragraph for category 3. This text aims to provide in-depth details, examples, or stories related to Child A1 in this specific category.",
                   "code": {
-                    "url": "https://tabapay-9ab6ebeb9689.herokuapp.com/graphql",
+                    "url": "https://tabapay-api.apratim.me/graphql",
                     "requestType": "query",
                     "body": "query {\n  fetchMessages {\n    message\n  }\n}"
                   }
